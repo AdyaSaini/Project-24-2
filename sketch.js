@@ -14,11 +14,11 @@ function setup() {
 	engine = Engine.create();
 	world = engine.world;
 
-	ground = new Ground(1200,15);//(1200,15);
-	paperBall = new Paper(200,320);
-	dustbin = new Dustbin(750,20,20,90);
-	dustbin1 = new Dustbin(900,20,20,90);
-	dustbin2 = new Dustbin(825,70,150,20); 
+	ground = new Ground(1200,15);
+	paperBall = new Paper(200,250);
+	dustbin = new Dustbin(750,270,20,90);
+	dustbin1 = new Dustbin(900,270,20,90);
+	dustbin2 = new Dustbin(825,320,150,20);  
 
 	Engine.run(engine);
 }
