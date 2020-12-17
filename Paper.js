@@ -10,9 +10,11 @@ class Paper{
         World.add(world, this.body);
     }
     display(){
+        push();
         var pos =this.body.position;
         translate(pos.x, pos.y);
         fill('#ff66b8');
         ellipse(0,0,20,20);
+        pop();
     }
 }
